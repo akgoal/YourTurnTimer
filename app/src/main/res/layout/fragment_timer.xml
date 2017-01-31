@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <com.deakishin.yourturntimer.controllerlayer.mainscreen.fragments.timerdisplay.tabledisplay.ButtonWithBorderProgress
+        android:id="@+id/timer_switch_button"
+        style="@style/TimerSwitchButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/timer_list_border"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ListView
+            android:id="@+id/timer_listView"
+            style="@style/TimerListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

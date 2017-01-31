@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialog_button_text_size">16</integer>
+
+    <!-- Transparency for disabled icon int [0..255]. -->
+    <integer name="disabled_icon_transparency">77</integer>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors from Material Design Color palette. -->
+    <color name="primary500">#673AB7</color>
+    <color name="primary700">#512DA8</color>
+    <color name="primary300">#9575CD</color>
+    <color name="primary50">#EDE7F6</color>
+
+    <!-- Accent colors from Material Design Color palette. -->
+    <color name="accentA200">#FFAB40</color>
+    <color name="accentA100">#FFD180</color>
+    <color name="accentA400">#FF9100</color>
+    <color name="accentA700">#FF6D00</color>
+    <color name="accent500">#FF9800</color>
+    <color name="accent700">#F57C00</color>
+    <color name="accent900">#E65100</color>
+    <!-- Accent specific colors. -->
+    <color name="accentA200_tint">#1FFFAB40</color>
+    <color name="accentA200_disabled">#4DFFAB40</color>
+
+    <!-- Background color for screens. Must correspond to the app theme. -->
+    <color name="background">#FAFAFA</color>
+
+    <!-- Colors for views that depend on colors above. -->
+    <color name="colorPrimary">@color/primary500</color>
+    <color name="colorPrimaryDark">@color/primary700</color>
+    <color name="colorPrimaryLight">@color/primary300</color>
+    <color name="colorPrimaryLightLight">@color/primary50</color>
+
+    <color name="accent">@color/accentA200</color>
+    <color name="accent_darker">@color/accentA400</color>
+    <color name="accent_lighter">@color/accentA100</color>
+    <color name="accent_darker_darker">@color/accentA700</color>
+    <color name="accent_tint">@color/accentA200_tint</color>
+    <color name="accent_disabled">@color/accentA200_disabled</color>
+
+    <color name="text_primary">#de000000</color>
+    <color name="text_secondary">#8a000000</color>
+    <color name="text_disabled">#61000000</color>
+    <color name="text_button_disabled">#4d000000</color>
+
+    <color name="text_ondark_primary">#ffffff</color>
+    <color name="text_ondark_secondary">#b3ffffff</color>
+    <color name="text_ondark_disabled">#80ffffff</color>
+    <color name="text_ondark_button_disabled">#4dffffff</color>
+
+    <color name="button_borderful_bg">@color/accent500</color>
+    <color name="button_borderful_bg_pressed">@color/accent700</color>
+    <color name="button_borderful_bg_disabled">#1fffffff</color>
+
+    <color name="toolbar">@color/colorPrimary</color>
+    <color name="status_bar">@color/colorPrimaryDark</color>
+    <color name="toolbar_primary_text">@color/text_ondark_primary</color>
+
+    <color name="toolbar_accent">@color/accent500</color>
+    <color name="statusbar_accent">@color/accent700</color>
+
+    <color name="bottom_navigation_background">@color/colorPrimaryLight</color>
+    <color name="bottom_navigation_icon_background_normal">@android:color/transparent</color>
+    <color name="bottom_navigation_icon_background_pressed">#0fffffff</color>
+
+    <!-- Color of list dividers. -->
+    <color name="divider">#1f000000</color>
+
+    <color name="control_activated">@color/accent</color>
+    <color name="control_highlight">@color/accent_lighter</color>
+
+    <color name="dialog_btn_text">@color/accent_darker</color>
+    <color name="dialog_btn_background_normal">@android:color/transparent</color>
+    <color name="dialog_btn_background_pressed">@color/accent_tint</color>
+
+    <color name="form_field_normal">@color/text_disabled</color>
+    <color name="form_field_focused">@color/accent</color>
+
+    <!-- Colors for displaying timer related widgets. -->
+    <color name="timer_switch_bg_color_normal">@color/accent500</color>
+    <color name="timer_switch_bg_color_pressed">@color/accent700</color>
+    <color name="timer_switch_bg_color_disabled">#1F000000</color>
+    <color name="timer_switch_text_color_normal">@color/text_ondark_primary</color>
+    <color name="timer_switch_text_color_pressed">@color/timer_switch_text_color_normal</color>
+    <color name="timer_switch_text_color_disabled">@color/text_ondark_button_disabled</color>
+    <color name="timer_switch_progress_color">@color/accent_darker_darker</color>
+    <color name="timer_switch_progress_bg_color">@android:color/transparent</color>
+    <color name="timer_switch_disabled_tint">#0f000000</color>
+    <color name="timer_switch_flash_tint">#ffffff</color>
+
+    <color name="timer_list_divider">@color/divider</color>
+    <color name="timer_list_item_bg_color">@android:color/transparent</color>
+    <color name="timer_list_item_progress_color">@color/colorPrimaryLightLight</color>
+    <color name="timer_list_item_progress_bg_color">@android:color/transparent</color>
+    <color name="timer_list_item_bg_color_disabled">@android:color/transparent</color>
+    <color name="timer_list_item_text_color_normal">@color/text_primary</color>
+    <color name="timer_list_item_text_color_disabled">@color/text_disabled</color>
+    <color name="timer_list_item_text_color_selected">@color/accent_darker_darker</color>
+    <color name="timer_list_item_selected_border_color">@color/accent</color>
+
+    <!-- Color for displaying timer editing related widgets. -->
+    <color name="edit_timer_list_time_separator">@color/divider</color>
+    <color name="edit_timer_list_item_selected">@color/accent</color>
+    <color name="edit_timer_list_item_normal">@android:color/transparent</color>
+
+    <color name="edit_timer_checkbox_color_checked">@color/accent</color>
+    <color name="edit_timer_checkbox_color_unchecked_normal">#8A000000</color>
+    <color name="edit_timer_checkbox_color_unchecked_accent">@color/accent</color>
+
+    <color name="edit_timer_button_background_normal">@android:color/transparent</color>
+    <color name="edit_timer_button_background_pressed">@color/accent_tint</color>
+    <color name="edit_timer_button_inactive_background_pressed">#1A000000</color>
+
+    <color name="number_picker_divider">@color/accent</color>
+
+</resources>

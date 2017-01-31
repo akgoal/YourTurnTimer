@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit_menu_item_order"
+        android:icon="@drawable/ic_menu_order"
+        android:title="@string/menu_order"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/edit_menu_item_add"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/menu_add"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/edit_menu_item_select_all"
+        android:icon="@drawable/ic_menu_select_all"
+        android:title="@string/menu_select_all"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/edit_menu_item_time"
+        android:icon="@drawable/ic_menu_time"
+        android:title="@string/menu_time"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/edit_menu_item_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="@string/menu_delete"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/edit_menu_item_shuffle"
+        android:icon="@drawable/ic_menu_shuffle"
+        android:title="@string/menu_shuffle"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/edit_menu_item_order_reverse"
+        android:icon="@drawable/ic_menu_reverse_order"
+        android:title="@string/menu_order_reverse"
+        app:showAsAction="always"/>
+
+</menu>

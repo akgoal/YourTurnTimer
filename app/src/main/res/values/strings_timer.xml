@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timer_list_item_name_with_number">%1$d. %2$s</string>
+    <string name="timer_button">%3$s\n%1$d. %2$s</string>
+
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="stop">Stop</string>
+    <string name="timers">Timers</string>
+
+    <string name="timer_service_notification_ticker">%1$s</string>
+    <string name="timer_service_notification_title">%1$d. %2$s</string>
+</resources>

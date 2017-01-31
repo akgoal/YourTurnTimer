@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:clickable="true">
+
+    <com.deakishin.yourturntimer.controllerlayer.mainscreen.fragments.timerdisplay.tabledisplay.ProgressView
+        android:id="@+id/timer_list_item_progressView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/timer_list_item_name"
+            style="@style/TimerListItemNameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/timer_list_item_time"
+            style="@style/TimerListItemTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/timer_list_item_border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/timer_list_item_selected_border"/>
+</FrameLayout>

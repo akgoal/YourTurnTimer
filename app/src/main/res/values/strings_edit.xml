@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_screen_title">Timers</string>
+
+    <string name="edit_list_item_number">%1$d.</string>
+    <string name="edit_list_item_time_max_digits">00:00:00</string>
+    <string name="default_timer_name">Timer %1$d</string>
+
+    <string name="time_separator">:</string>
+
+    <string name="save">Save</string>
+
+    <string name="time_picker_dialog_title_single">%1$d. %2$s</string>
+    <string name="time_picker_dialog_title_multiple">%1$d selected timers</string>
+
+    <string name="menu_delete">Delete</string>
+    <string name="menu_time">Set time</string>
+    <string name="menu_add">Add new</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_select_all">Select all</string>
+    <string name="menu_order_reverse">Reverse order</string>
+    <string name="menu_shuffle">Shuffle</string>
+
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+
+    <string name="confirm_delete_selected_message">Delete selected timers?</string>
+    <string name="confirm_delete_selected_yes">Delete</string>
+</resources>

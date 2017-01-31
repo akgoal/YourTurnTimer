@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EditListView" parent="TimerListView">
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+
+    <style name="EditListItemNameTextView" parent="TimerListItemNameTextView">
+    </style>
+
+    <style name="EditListItemTimeTextView" parent="EditListItemNameTextView">
+    </style>
+
+    <style name="EditListItemNumberTextView" parent="EditListItemNameTextView">
+    </style>
+
+    <style name="TimePickerTitleTextView" parent="MaterialTextPrimary">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TimePickerSeparatorTextView" parent="MaterialTextPrimary">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="EditNameEditText" parent="MaterialEditText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/form_field_input_border</item>
+    </style>
+
+    <style name="EditNameNumberTextView" parent="MaterialTextPrimary">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

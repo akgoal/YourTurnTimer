@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="@color/timer_switch_bg_color_disabled"/>
+            <corners android:radius="2dp"/>
+
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="@color/timer_switch_bg_color_normal"/>
+            <corners android:radius="2dp"/>
+
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="@color/timer_switch_bg_color_pressed"/>
+            <corners android:radius="2dp"/>
+
+        </shape>
+    </item>
+
+</selector>

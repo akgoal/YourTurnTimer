@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <!-- If you are using revision 22.1 please use just windowNoTitle. Without android: -->
+        <item name="windowNoTitle">true</item>
+        <!-- We will be using the toolbar so no need to show ActionBar -->
+        <item name="windowActionBar">false</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="colorControlNormal">@color/accent</item>
+        <item name="colorControlActivated">@color/control_activated</item>
+        <item name="colorControlHighlight">@color/control_highlight</item>
+
+        <!--<item name="actionBarStyle">@style/AppTheme.ActionBarStyle</item>-->
+    </style>
+
+    <style name="AppTheme.ActionBarStyle" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleTextStyle</item>
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MaterialToolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/toolbar_primary_text</item>
+    </style>
+
+    <style name="MaterialButtonBorderless" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/button_borderless_text</item>
+    </style>
+
+    <style name="MaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/button_borderful_text</item>
+        <item name="android:background">@drawable/button_borderful_background</item>
+    </style>
+
+    <style name="MaterialTextPrimary">
+        <item name="android:textColor">@color/material_text_primary</item>
+    </style>
+
+    <style name="MaterialTextSecondary">
+        <item name="android:textColor">@color/material_text_secondary</item>
+    </style>
+
+    <style name="MaterialTextDisabled">
+        <item name="android:textColor">@color/material_text_disabled</item>
+    </style>
+
+    <style name="MaterialEditText">
+        <item name="android:textColor">@color/material_text_primary</item>
+        <item name="android:textColorHint">@color/material_text_disabled</item>
+    </style>
+
+    <style name="MessageDialogTextView" parent="MaterialTextPrimary">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TimerSwitchButton" parent="MaterialButton">
+        <item name="android:textSize">24sp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/timer_switch_text</item>
+        <!--<item name="android:background">@drawable/timer_switch_background</item>-->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TimerListView">
+        <item name="android:divider">@color/timer_list_divider</item>
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+
+    <style name="TimerListItemNameTextView" parent="MaterialTextPrimary">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TimerListItemTimeTextView" parent="TimerListItemNameTextView">
+    </style>
+</resources>

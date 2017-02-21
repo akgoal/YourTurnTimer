@@ -9,10 +9,9 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
-import android.util.Log;
 
 import com.deakishin.yourturntimer.R;
-import com.deakishin.yourturntimer.modellayer.timermanager.TimeFormatter;
+import com.deakishin.yourturntimer.modellayer.TimeFormatter;
 import com.deakishin.yourturntimer.controllerlayer.mainscreen.MainActivity;
 import com.deakishin.yourturntimer.modellayer.timermanager.TimerListener;
 import com.deakishin.yourturntimer.modellayer.timermanager.TimerManager;

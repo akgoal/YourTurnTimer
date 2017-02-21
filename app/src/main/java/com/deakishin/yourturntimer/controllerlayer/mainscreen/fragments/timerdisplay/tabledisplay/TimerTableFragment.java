@@ -10,7 +10,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.deakishin.yourturntimer.R;
-import com.deakishin.yourturntimer.modellayer.timermanager.TimeFormatter;
+import com.deakishin.yourturntimer.modellayer.TimeFormatter;
 import com.deakishin.yourturntimer.controllerlayer.mainscreen.fragments.timerdisplay.TimerDisplayFragment;
 import com.deakishin.yourturntimer.modellayer.timermanager.TimerManagerState;
 

@@ -16,7 +16,7 @@ import android.widget.TextView;
 import com.deakishin.yourturntimer.R;
 import com.deakishin.yourturntimer.controllerlayer.CustomDialogFragment;
 import com.deakishin.yourturntimer.modellayer.timermanager.InitialTimer;
-import com.deakishin.yourturntimer.modellayer.timermanager.TimeFormatter;
+import com.deakishin.yourturntimer.modellayer.TimeFormatter;
 
 import java.util.ArrayList;
 import java.util.List;
